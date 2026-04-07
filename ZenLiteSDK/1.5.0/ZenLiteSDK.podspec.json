@@ -1,0 +1,27 @@
+{
+  "name": "ZenLiteSDK",
+  "version": "1.5.0",
+  "summary": "ZenLite SDK for iOS.",
+  "description": "ZenLite SDK for iOS .",
+  "homepage": "https://www.brainco.cn",
+  "license": {
+    "type": "Copyright",
+    "text": "LICENSE Copyright 2015 - 2024 BrainCo, Inc. All rights reserved."
+  },
+  "authors": {
+    "BrainCo": "support@brainco.cn"
+  },
+  "source": {
+    "http": "https://app.brainco.cn/universal/zenlite-sdk-prebuild/1.5.0/ZenLiteSDK.xcframework.zip"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "vendored_frameworks": "ZenLiteSDK.xcframework",
+  "frameworks": "Accelerate",
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "i386, arm64",
+    "EXCLUDED_ARCHS[sdk=iphoneos*]": "armv7"
+  }
+}
