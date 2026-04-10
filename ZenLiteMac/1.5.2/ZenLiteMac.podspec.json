@@ -1,0 +1,25 @@
+{
+  "name": "ZenLiteMac",
+  "version": "1.5.2",
+  "summary": "ZenLite SDK for Mac.",
+  "description": "ZenLite SDK for Mac .",
+  "homepage": "https://www.brainco.cn",
+  "license": {
+    "type": "Copyright",
+    "text": "LICENSE Copyright 2015 - 2024 BrainCo, Inc. All rights reserved."
+  },
+  "authors": {
+    "BrainCo": "support@brainco.cn"
+  },
+  "source": {
+    "http": "https://app.brainco.cn/universal/zenlite-sdk-prebuild/1.5.2/ZenLiteMac.xcframework.zip"
+  },
+  "platforms": {
+    "osx": "10.15"
+  },
+  "vendored_frameworks": "ZenLiteMac.xcframework",
+  "frameworks": "Accelerate",
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  }
+}
