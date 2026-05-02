@@ -15,7 +15,7 @@
     "http": "https://app.brainco.cn/universal/crimson-sdk-prebuild/ios/1.8.1/CrimsonMac.xcframework.zip"
   },
   "platforms": {
-    "osx": "10.15"
+    "osx": "10.13"
   },
   "vendored_frameworks": "CrimsonMac.xcframework",
   "frameworks": "Accelerate",
