@@ -12,7 +12,7 @@
     "BrainCo": "support@brainco.cn"
   },
   "source": {
-    "http": "https://app.brainco.cn/universal/crimson-sdk-prebuild/ios/2.0.0/CrimsonSDK.xcframework.zip"
+    "http": "https://app.brainco.cn/universal/crimson-sdk-prebuild/2.0.0/ios/CrimsonSDK.xcframework.zip"
   },
   "platforms": {
     "ios": "12.0"
