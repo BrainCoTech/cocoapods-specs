@@ -12,7 +12,7 @@
     "BrainCo": "support@brainco.cn"
   },
   "source": {
-    "http": "https://app.brainco.cn/universal/clear-core-prebuild/macos/1.0.0/ClearMac.xcframework.zip"
+    "http": "https://app.brainco.cn/universal/clear-sdk-prebuild/1.0.0/macos/ClearMac.xcframework.zip"
   },
   "platforms": {
     "osx": "10.13"
