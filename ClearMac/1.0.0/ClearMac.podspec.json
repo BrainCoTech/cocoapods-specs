@@ -15,7 +15,7 @@
     "http": "https://app.brainco.cn/universal/clear-sdk-prebuild/1.0.0/macos/ClearMac.xcframework.zip"
   },
   "platforms": {
-    "osx": "10.13"
+    "osx": "10.15"
   },
   "vendored_frameworks": "ClearMac.xcframework",
   "dependencies": {
