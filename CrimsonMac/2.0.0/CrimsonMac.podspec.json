@@ -18,6 +18,11 @@
     "osx": "10.15"
   },
   "vendored_frameworks": "CrimsonMac.xcframework",
+  "dependencies": {
+    "TensorFlowLiteC": [
+      "0.0.3"
+    ]
+  },
   "frameworks": "Accelerate",
   "pod_target_xcconfig": {
     "DEFINES_MODULE": "YES"

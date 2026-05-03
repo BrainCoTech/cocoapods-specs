@@ -18,6 +18,11 @@
     "osx": "10.13"
   },
   "vendored_frameworks": "ClearMac.xcframework",
+  "dependencies": {
+    "TensorFlowLiteC": [
+      "0.0.3"
+    ]
+  },
   "frameworks": "Accelerate",
   "pod_target_xcconfig": {
     "DEFINES_MODULE": "YES"
