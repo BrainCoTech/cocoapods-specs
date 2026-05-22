@@ -20,7 +20,7 @@
   "vendored_frameworks": "CrimsonMac.xcframework",
   "dependencies": {
     "TensorFlowLiteC": [
-      "0.0.3"
+      "0.0.4"
     ]
   },
   "frameworks": "Accelerate",
