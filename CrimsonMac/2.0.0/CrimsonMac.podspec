@@ -14,11 +14,6 @@ Pod::Spec.new do |s|
   s.platform         = :osx, '10.15'
 
   s.vendored_framework = "#{s.name}.xcframework"
-
-  s.prepare_command = <<-CMD
-    install_name_tool -change '@rpath/libtensorflowlite_c.dylib' '@rpath/TensorFlowLiteC.framework/Versions/Current/TensorFlowLiteC' #{s.name}.xcframework/macos-arm64_x86_64/#{s.name}.framework/#{s.name} 2>/dev/null || true
-  CMD
-
   s.dependency 'TensorFlowLiteC', '0.0.5'
   s.frameworks = 'Accelerate'
 
