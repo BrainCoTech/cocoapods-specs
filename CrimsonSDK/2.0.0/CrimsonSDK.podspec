@@ -14,7 +14,13 @@ Pod::Spec.new do |s|
   s.platform = :ios, '12.0'
 
   s.vendored_framework = "#{s.name}.xcframework"
-  s.dependency 'TensorFlowLiteC'
+
+  s.prepare_command = <<-CMD
+    install_name_tool -change '@rpath/libtensorflowlite_c.so' '@rpath/TensorFlowLiteC.framework/TensorFlowLiteC' #{s.name}.xcframework/ios-arm64/#{s.name}.framework/#{s.name} 2>/dev/null || true
+    install_name_tool -change '@rpath/libtensorflowlite_c.so' '@rpath/TensorFlowLiteC.framework/TensorFlowLiteC' #{s.name}.xcframework/ios-arm64_x86_64-simulator/#{s.name}.framework/#{s.name} 2>/dev/null || true
+  CMD
+
+  s.dependency 'TensorFlowLiteC', '0.0.5'
   s.frameworks = 'Accelerate'
 
   s.pod_target_xcconfig = {
