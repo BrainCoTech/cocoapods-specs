@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://www.brainco.cn'
   s.license          = { :type => 'Copyright', :text => 'LICENSE Copyright 2015 - 2026 BrainCo, Inc. All rights reserved.' }
   s.author           = { 'BrainCo' => 'support@brainco.cn' }
-  s.source           = { :http => "https://app.brainco.cn/universal/zenlite-sdk-prebuild/universal/libtensorflowlite_c/TensorFlowLiteC.xcframework.zip"}
+  s.source           = { :http => "https://focus-resource.oss-cn-beijing.aliyuncs.com/universal/zenlite-sdk-prebuild/universal/libtensorflowlite_c/TensorFlowLiteC.xcframework.zip"}
   
   s.ios.deployment_target = '12.0'
   s.osx.deployment_target = '10.15'

@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://www.brainco.cn'
   s.license          = { :type => 'Copyright', :text => 'LICENSE Copyright 2015 - 2023 BrainCo, Inc. All rights reserved.' }
   s.author           = { 'BrainCo' => 'support@brainco.cn' }
-  s.source           = { :http => "https://app.brainco.cn/universal/crimson-sdk-prebuild/#{s.version}/ios/#{s.name}.xcframework.zip"}
+  s.source           = { :http => "https://focus-resource.oss-cn-beijing.aliyuncs.com/universal/crimson-sdk-prebuild/#{s.version}/ios/#{s.name}.xcframework.zip"}
   s.platform = :ios, '12.0'
 
   s.vendored_framework = "#{s.name}.xcframework"

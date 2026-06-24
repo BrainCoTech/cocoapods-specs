@@ -12,7 +12,7 @@
     "BrainCo": "support@brainco.cn"
   },
   "source": {
-    "http": "https://app.brainco.cn/universal/crimson-sdk-prebuild/ios/1.7.2/CrimsonMac.xcframework.zip"
+    "http": "https://focus-resource.oss-cn-beijing.aliyuncs.com/universal/crimson-sdk-prebuild/ios/1.7.2/CrimsonMac.xcframework.zip"
   },
   "platforms": {
     "osx": "10.13"

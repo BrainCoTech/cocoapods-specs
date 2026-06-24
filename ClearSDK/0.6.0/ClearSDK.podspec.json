@@ -12,7 +12,7 @@
     "BrainCo": "support@brainco.cn"
   },
   "source": {
-    "http": "https://app.brainco.cn/universal/clear-sdk-prebuild/0.6.0/ios/ClearSDK.xcframework.zip"
+    "http": "https://focus-resource.oss-cn-beijing.aliyuncs.com/universal/clear-sdk-prebuild/0.6.0/ios/ClearSDK.xcframework.zip"
   },
   "platforms": {
     "ios": "12.0"
