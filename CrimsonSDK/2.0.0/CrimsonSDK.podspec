@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.platform = :ios, '12.0'
 
   s.vendored_framework = "#{s.name}.xcframework"
-  s.dependency 'TensorFlowLiteC', '0.0.5'
+  s.dependency 'TensorFlowLiteC', '0.0.6'
   s.frameworks = 'Accelerate'
 
   s.pod_target_xcconfig = {
