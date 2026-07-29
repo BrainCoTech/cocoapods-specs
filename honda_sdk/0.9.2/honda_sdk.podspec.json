@@ -20,7 +20,7 @@
   "vendored_frameworks": "honda_sdk.xcframework",
   "dependencies": {
     "TensorFlowLiteC": [
-      "0.0.5"
+      "0.0.6"
     ]
   },
   "frameworks": "Accelerate",
