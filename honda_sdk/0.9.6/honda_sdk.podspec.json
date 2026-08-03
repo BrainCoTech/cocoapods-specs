@@ -1,0 +1,32 @@
+{
+  "name": "honda_sdk",
+  "version": "0.9.6",
+  "summary": "Honda SDK for iOS (EEG & Biometrics).",
+  "description": "BrainCo Honda SDK iOS Native Framework.",
+  "homepage": "https://github.com/BrainCoTech/honda-sdk",
+  "license": {
+    "type": "Copyright",
+    "text": "Copyright 2026 BrainCo, Inc. All rights reserved."
+  },
+  "authors": {
+    "BrainCo": "support@brainco.cn"
+  },
+  "source": {
+    "http": "https://focus-resource.oss-cn-beijing.aliyuncs.com/universal/honda-sdk/flutter/v0.9.6/honda-native-ios.zip"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "vendored_frameworks": "honda_sdk.xcframework",
+  "dependencies": {
+    "TensorFlowLiteC": [
+      "0.0.6"
+    ]
+  },
+  "frameworks": "Accelerate",
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "i386",
+    "OTHER_LDFLAGS": "-framework TensorFlowLiteC -all_load"
+  }
+}
