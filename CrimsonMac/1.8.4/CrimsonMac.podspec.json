@@ -1,0 +1,30 @@
+{
+  "name": "CrimsonMac",
+  "version": "1.8.4",
+  "summary": "Crimson SDK for Mac.",
+  "description": "Crimson SDK for Mac .",
+  "homepage": "https://www.brainco.cn",
+  "license": {
+    "type": "Copyright",
+    "text": "LICENSE Copyright 2015 - 2023 BrainCo, Inc. All rights reserved."
+  },
+  "authors": {
+    "BrainCo": "support@brainco.cn"
+  },
+  "source": {
+    "http": "https://focus-resource.oss-cn-beijing.aliyuncs.com/universal/crimson-sdk-prebuild/1.8.4/macos/CrimsonMac.xcframework.zip"
+  },
+  "platforms": {
+    "osx": "10.15"
+  },
+  "vendored_frameworks": "CrimsonMac.xcframework",
+  "dependencies": {
+    "TensorFlowLiteC": [
+      "0.0.6"
+    ]
+  },
+  "frameworks": "Accelerate",
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  }
+}
