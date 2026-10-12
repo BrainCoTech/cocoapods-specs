@@ -12,12 +12,17 @@
     "BrainCo": "support@brainco.cn"
   },
   "source": {
-    "http": "https://focus-resource.oss-cn-beijing.aliyuncs.com/universal/zenlite-sdk-prebuild/1.5.2/ZenLiteSDK.xcframework.zip"
+    "http": "https://focus-resource.oss-cn-beijing.aliyuncs.com/universal/zenlite-sdk-prebuild/1.5.2/ios/ZenLiteSDK.xcframework.zip"
   },
   "platforms": {
     "ios": "12.0"
   },
   "vendored_frameworks": "ZenLiteSDK.xcframework",
+  "dependencies": {
+    "TensorFlowLiteC": [
+      "0.0.6"
+    ]
+  },
   "frameworks": "Accelerate",
   "pod_target_xcconfig": {
     "DEFINES_MODULE": "YES",
