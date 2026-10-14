@@ -1,0 +1,33 @@
+{
+  "name": "ClearSDK",
+  "version": "1.0.2",
+  "summary": "Clear SDK for iOS.",
+  "description": "Clear SDK for iOS .",
+  "homepage": "https://www.brainco.cn",
+  "license": {
+    "type": "Copyright",
+    "text": "LICENSE Copyright 2015 - 2023 BrainCo, Inc. All rights reserved."
+  },
+  "authors": {
+    "BrainCo": "support@brainco.cn"
+  },
+  "source": {
+    "http": "https://focus-resource.oss-cn-beijing.aliyuncs.com/universal/clear-sdk-prebuild/1.0.2/ios/ClearSDK.xcframework.zip",
+    "sha256": "b95eef47d78596fd0dc7164bc6a239a7717da6d7713c807eab71ef86f4c4effa"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "vendored_frameworks": "ClearSDK.xcframework",
+  "dependencies": {
+    "TensorFlowLiteC": [
+      "0.0.5"
+    ]
+  },
+  "frameworks": "Accelerate",
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "i386",
+    "EXCLUDED_ARCHS[sdk=iphoneos*]": "armv7"
+  }
+}
