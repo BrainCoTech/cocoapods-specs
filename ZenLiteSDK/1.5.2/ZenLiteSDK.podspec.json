@@ -12,7 +12,8 @@
     "BrainCo": "support@brainco.cn"
   },
   "source": {
-    "http": "https://focus-resource.oss-cn-beijing.aliyuncs.com/universal/zenlite-sdk-prebuild/1.5.2/ios/ZenLiteSDK.xcframework.zip"
+    "http": "https://focus-resource.oss-cn-beijing.aliyuncs.com/universal/zenlite-sdk-prebuild/1.5.2/ios/ZenLiteSDK.xcframework.zip?revision=authfree-20261020-46c05d274aea",
+    "sha256": "46c05d274aea5334ce120236eba648f8674058b071ba9d8b5b98631c0070449f"
   },
   "platforms": {
     "ios": "12.0"
