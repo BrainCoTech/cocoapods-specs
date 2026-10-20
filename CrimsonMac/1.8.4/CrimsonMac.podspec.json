@@ -12,7 +12,8 @@
     "BrainCo": "support@brainco.cn"
   },
   "source": {
-    "http": "https://focus-resource.oss-cn-beijing.aliyuncs.com/universal/crimson-sdk-prebuild/1.8.4/macos/CrimsonMac.xcframework.zip"
+    "http": "https://focus-resource.oss-cn-beijing.aliyuncs.com/universal/crimson-sdk-prebuild/1.8.4/macos/CrimsonMac.xcframework.zip?revision=authfree-20261020-52ecce819fe5",
+    "sha256": "52ecce819fe5d697513481ff183316195f1439d4e85614d4a68dc130e48d9445"
   },
   "platforms": {
     "osx": "10.15"
