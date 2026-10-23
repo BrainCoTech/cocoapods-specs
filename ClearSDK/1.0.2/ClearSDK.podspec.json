@@ -12,8 +12,8 @@
     "BrainCo": "support@brainco.cn"
   },
   "source": {
-    "http": "https://focus-resource.oss-cn-beijing.aliyuncs.com/universal/clear-sdk-prebuild/1.0.2/ios/ClearSDK.xcframework.zip",
-    "sha256": "b95eef47d78596fd0dc7164bc6a239a7717da6d7713c807eab71ef86f4c4effa"
+    "http": "https://focus-resource.oss-cn-beijing.aliyuncs.com/universal/clear-sdk-prebuild/1.0.2/ios/ClearSDK.xcframework.zip?authfree=20261023",
+    "sha256": "d12d0d50dea516bc942bf407f9a48f26ef8607aa0de00887fff3de7b3b552762"
   },
   "platforms": {
     "ios": "12.0"

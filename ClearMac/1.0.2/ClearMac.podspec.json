@@ -12,8 +12,8 @@
     "BrainCo": "support@brainco.cn"
   },
   "source": {
-    "http": "https://focus-resource.oss-cn-beijing.aliyuncs.com/universal/clear-sdk-prebuild/1.0.2/macos/ClearMac.xcframework.zip",
-    "sha256": "aaffcd1e0ef202008ec9b8e660d6cc25df38eeecc35fef55f9d2a52310672aac"
+    "http": "https://focus-resource.oss-cn-beijing.aliyuncs.com/universal/clear-sdk-prebuild/1.0.2/macos/ClearMac.xcframework.zip?authfree=20261023",
+    "sha256": "5d8f38e2e663644bdd395d8d8325ee4dabeedbc1f47f0831e56a5d97aac6e400"
   },
   "platforms": {
     "osx": "10.15"
