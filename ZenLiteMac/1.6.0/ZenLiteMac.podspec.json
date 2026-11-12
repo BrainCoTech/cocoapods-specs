@@ -1,0 +1,31 @@
+{
+  "name": "ZenLiteMac",
+  "version": "1.6.0",
+  "summary": "ZenLite SDK for Mac.",
+  "description": "ZenLite SDK for Mac .",
+  "homepage": "https://www.brainco.cn",
+  "license": {
+    "type": "Proprietary",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "BrainCo": "support@brainco.cn"
+  },
+  "source": {
+    "http": "https://focus-resource.oss-cn-beijing.aliyuncs.com/universal/zenlite-sdk-prebuild/1.6.0/macos/ZenLiteMac.xcframework.zip",
+    "sha256": "b4593272c6f5620e0d85593981a5dce94cdec392e4650653a50ea59e9d462354"
+  },
+  "platforms": {
+    "osx": "12.3"
+  },
+  "vendored_frameworks": "ZenLiteMac.xcframework",
+  "dependencies": {
+    "TensorFlowLiteC": [
+      "0.0.6"
+    ]
+  },
+  "frameworks": "Accelerate",
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  }
+}

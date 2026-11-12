@@ -1,0 +1,33 @@
+{
+  "name": "ZenLiteSDK",
+  "version": "1.6.0",
+  "summary": "ZenLite SDK for iOS.",
+  "description": "ZenLite SDK for iOS .",
+  "homepage": "https://www.brainco.cn",
+  "license": {
+    "type": "Proprietary",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "BrainCo": "support@brainco.cn"
+  },
+  "source": {
+    "http": "https://focus-resource.oss-cn-beijing.aliyuncs.com/universal/zenlite-sdk-prebuild/1.6.0/ios/ZenLiteSDK.xcframework.zip",
+    "sha256": "ccf2bca880fda55dfc19a62a4d1e672c94118125ed57e301a1017e308e8159fa"
+  },
+  "platforms": {
+    "ios": "14.0"
+  },
+  "vendored_frameworks": "ZenLiteSDK.xcframework",
+  "dependencies": {
+    "TensorFlowLiteC": [
+      "0.0.6"
+    ]
+  },
+  "frameworks": "Accelerate",
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "i386",
+    "EXCLUDED_ARCHS[sdk=iphoneos*]": "armv7"
+  }
+}

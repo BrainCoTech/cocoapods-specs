@@ -1,0 +1,31 @@
+{
+  "name": "ClearMac",
+  "version": "1.1.0",
+  "summary": "Clear SDK for Mac.",
+  "description": "Clear SDK for Mac .",
+  "homepage": "https://www.brainco.cn",
+  "license": {
+    "type": "Proprietary",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "BrainCo": "support@brainco.cn"
+  },
+  "source": {
+    "http": "https://focus-resource.oss-cn-beijing.aliyuncs.com/universal/clear-sdk-prebuild/1.1.0/macos/ClearMac.xcframework.zip",
+    "sha256": "90c3405c8ed49a7ee4d3b57e3eaa4fe0acd7bb1c9d2d90d0500ec4044ae0d4fb"
+  },
+  "platforms": {
+    "osx": "12.3"
+  },
+  "vendored_frameworks": "ClearMac.xcframework",
+  "dependencies": {
+    "TensorFlowLiteC": [
+      "0.0.5"
+    ]
+  },
+  "frameworks": "Accelerate",
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  }
+}
